@@ -1,0 +1,111 @@
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'github.com:waseemali97/akhuwat.git'
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'github.com:waseemali97/akhuwat.git'
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git push origin main
+Everything up-to-date
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   newfile.txt
+
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git commit -m "2nd work"
+[main 22d020c] 2nd work
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 newfile.txt
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 224 bytes | 224.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:waseemali97/akhuwat.git
+   fda002e..22d020c  main -> main
+branch 'main' set up to track 'origin/main'.
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ touch.abcd.txt
+bash: touch.abcd.txt: command not found
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ touch abcd.txt
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ echo "hellow world! this is my 1st work on github" abcd.txt
+hellow world! this is my 1st work on github abcd.txt
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ echo "hellow world! this is my 1st work on github" "abcd.txt"
+hellow world! this is my 1st work on github abcd.txt
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        abcd.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git add -A
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git branch -M main
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git commit -m "3rd work"
+[main 9f97cbd] 3rd work
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 abcd.txt
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'github.com:waseemali97/akhuwat.git'
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 227 bytes | 227.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:waseemali97/akhuwat.git
+   22d020c..9f97cbd  main -> main
+branch 'main' set up to track 'origin/main'.
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
+$ echo "hello" abc.txt
+hello abc.txt
+
+a@DESKTOP-ARSANEM MINGW64 ~/Desktop/akhuwat (main)
